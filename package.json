@@ -1,0 +1,24 @@
+{
+  "name": "botify",
+  "version": "1.0.0",
+  "description": "a telegram bot and spotify search",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "spotify",
+    "telegram",
+    "bot"
+  ],
+  "author": "@devcharles",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.0.0",
+    "node-spotify-api": "^1.1.1",
+    "telegraf": "^3.32.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
